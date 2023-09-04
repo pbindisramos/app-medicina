@@ -74,16 +74,7 @@ export const SideMenu = () => {
                 }
 
 
-                <ListItem 
-                    button 
-                    sx={{ display: { xs: '', sm: 'none' } }} 
-                    onClick={ () => navigateTo('/category/men') }
-                >
-                    <ListItemIcon>
-                        <MaleOutlined/>
-                    </ListItemIcon>
-                    <ListItemText primary={'Hombres'} />
-                </ListItem>
+                
 
                 
 
